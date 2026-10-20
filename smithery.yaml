@@ -1,0 +1,7 @@
+name: genpark-cron-jitter-scheduler-agent-skill
+description: Crontab syntax parser and distributed jittered task scheduler preventing thundering herds in autonomous agent clusters
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
